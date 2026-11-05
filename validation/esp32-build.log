@@ -1,0 +1,209 @@
+Executing action: all (aliases: build)
+Running ninja in directory C:\esp-projects\gec-r4-rotate\build
+Executing "ninja all"...
+[0/2] Re-checking globbed directories...
+
+[1/10] Performing build step for 'bootloader'
+
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D C:\esp-projects\gec-r4-rotate\build\bootloader && C:\Espressif\tools\python\v6.0.3\venv\Scripts\python.exe D:/esp/.espressif/v6.0.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/esp-projects/gec-r4-rotate/build/bootloader/bootloader.bin"
+
+
+Bootloader binary size 0x4140 bytes. 0x3ec0 bytes (49%) free.
+
+
+
+[2/10] No install step for 'bootloader'
+
+[3/10] Completed 'bootloader'
+
+[4/10] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/boards/gec-esp32-s3/gec_stm32_link.cc.obj
+
+[5/10] Linking C static library esp-idf\main\libmain.a
+
+[6/10] Generating esp-idf/esp_system/ld/sections.ld
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:58: SR_WN_WN9S_HILEXIN: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:62: SR_WN_WN9S_HIESP: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:66: SR_WN_WN9S_NIHAOXIAOZHI: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:70: SR_WN_WN9S_HIJASON: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:79: SR_WN_WN9_HILEXIN: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:83: SR_WN_WN9_HIESP: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:87: SR_WN_WN9L_JA_KONNICHIHAESP_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:91: SR_WN_WN9L_FR_BONJOURESP_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:95: SR_WN_WN9_NIHAOMIAOBAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:99: SR_WN_WN9_XIAOAITONGXUE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:103: SR_WN_WN9L_XIAOAITONGXUE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:107: SR_WN_WN9_NIHAOXIAOZHI_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:111: SR_WN_WN9L_NIHAOXIAOZHI_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:115: SR_WN_WN9_ALEXA: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:119: SR_WN_WN9_JARVIS_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:123: SR_WN_WN9_COMPUTER_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:127: SR_WN_WN9_HEYWILLOW_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:131: SR_WN_WN9_HIMFIVE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:135: SR_WN_WN9_SOPHIA_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:139: SR_WN_WN9_HEYWANDA_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:143: SR_WN_WN9_HIJOLLY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:147: SR_WN_WN9_HIFAIRY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:151: SR_WN_WN9_HEYPRINTER_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:155: SR_WN_WN9_MYCROFT_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:159: SR_WN_WN9_HIJOY_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:163: SR_WN_WN9_HIJASON_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:167: SR_WN_WN9_ASTROLABE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:171: SR_WN_WN9_HEYILY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:175: SR_WN_WN9_BLUECHIP_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:179: SR_WN_WN9_HIANDY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:183: SR_WN_WN9_HEYIVY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:187: SR_WN_WN9L_HISTACKCHAN_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:191: SR_WN_WN9_HEYKIRA_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:195: SR_WN_WN9L_HEYGIGI_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:199: SR_WN_WN9_XIAOLONGXIAOLONG_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:203: SR_WN_WN9_HIMIAOMIAO_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:207: SR_WN_WN9_MIAOMIAOTONGXUE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:211: SR_WN_WN9_NIHAOXIAOXIN_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:215: SR_WN_WN9_XIAOMEITONGXUE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:219: SR_WN_WN9_HILILI_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:223: SR_WN_WN9_HITELLY_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:227: SR_WN_WN9_XIAOBINXIAOBIN_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:231: SR_WN_WN9_HAIXIAOWU_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:235: SR_WN_WN9_XIAOYAXIAOYA_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:239: SR_WN_WN9_LINAIBAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:243: SR_WN_WN9_XIAOSUROU_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:247: SR_WN_WN9_XIAOYUTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:251: SR_WN_WN9_XIAOMINGTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:255: SR_WN_WN9_XIAOKANGTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:259: SR_WN_WN9_XIAOJIANXIAOJIAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:263: SR_WN_WN9_XIAOTEXIAOTE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:267: SR_WN_WN9_NIHAOXIAOYI_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:271: SR_WN_WN9_NIHAOBAIYING_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:275: SR_WN_WN9_NIHAODONGDONG_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:279: SR_WN_WN9_HIWALLE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:283: SR_WN_WN9_XIAOLUXIAOLU_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:287: SR_WN_WN9_NIHAOXIAOAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:291: SR_WN_WN9_NI3HAO3XIAO3MAI4_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:295: SR_WN_WN9_NI3HAO3XIAO3RUI4_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:299: SR_WN_WN9_HAI1XIAO3OU1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:303: SR_WN_WN9_XIAO3JIA1XIAO3JIA1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:307: SR_WN_WN9_XIAO3FENG1XIAO3FENG1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:311: SR_WN_WN9_HAI1XIAO3XIANG4_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: C:/esp-projects/gec-r4-rotate/managed_components/espressif__esp-sr/Kconfig.projbuild:315: SR_WN_WN9L_NI3HAO3XING1BAO3_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bt/host/nimble/Kconfig.in:1453: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bootloader/Kconfig.projbuild:385: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bootloader/Kconfig.projbuild:425: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bt/common/Kconfig.in:146: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bt/host/nimble/Kconfig.in:1048: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/bt/controller/esp32c3/Kconfig.in:649: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/esp_hw_support\./lowpower/port/esp32p4/Kconfig.p4_rev3_mspi_workaround:6: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/esp_mm/Kconfig:20: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+
+NOTE: D:/esp/.espressif/v6.0.3/esp-idf/components/esp_system\./port/soc/esp32s3/Kconfig.memory:21: Deprecation notice: hex literal '0' without '0x' prefix detected. In the next major version, hex literals will be required to have a '0x' prefix.
+
+
+[7/10] Linking CXX executable xiaozhi.elf
+
+[8/10] Generating binary image from built executable
+
+esptool v5.6.0
+
+
+Creating ESP32-S3 image...
+
+
+Merged 3 ELF sections.
+
+
+Successfully created ESP32-S3 image.
+
+
+Generated C:/esp-projects/gec-r4-rotate/build/xiaozhi.bin
+
+[9/10] C:\Windows\system32\cmd.exe /C "cd /D C:\esp-projects\gec-r4-rotate\build && C:\Espressif\tools\python\v6.0.3\venv\Scripts\python.exe D:/esp/.espressif/v6.0.3/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/esp-projects/gec-r4-rotate/build/partition_table/partition-table.bin C:/esp-projects/gec-r4-rotate/build/xiaozhi.bin"
+
+xiaozhi.bin binary size 0x298610 bytes. Smallest app partition is 0x3f0000 bytes. 0x1579f0 bytes (34%) free.
+
+
+
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-size 16MB --flash-freq 80m 0x0 build\bootloader\bootloader.bin 0x8000 build\partition_table\partition-table.bin 0xd000 build\ota_data_initial.bin 0x20000 build\xiaozhi.bin 0x800000 build\generated_assets.bin
+or from the "C:\esp-projects\gec-r4-rotate\build" directory
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash "@flash_args"
