@@ -1,0 +1,8 @@
+PASS: IK/FK round trips, 720 gait frames, support counts, limits, invalid config, atomic rejection
+PASS: calibration lock, strict commands, wraparound, lease, deadline, fault latch, recovery
+PASS: 18 servo mappings, individual off, invalid ID, full-frame validation, partial I2C fault
+PASS: UART4 framing, validation, timeout, fault recovery, queue full, 18 IDs
+PASS: MQTT wire format, fragments, subscriptions, routing, malformed inputs, limits, timeouts, reuse
+PASS: legacy single-IP setup, IP failure stays offline, MQTT handshake, 100 split commands, beep limits, reconnect, timeout recovery, close during send
+PASS: EXTI capture, counter wrap, no echo, stuck echo, late edge, range, recovery, kernel guard (HAL/RTOS mocked)
+PASS: Python Tkinter available
