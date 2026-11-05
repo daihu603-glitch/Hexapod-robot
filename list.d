@@ -1,0 +1,12 @@
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+guide_mqtt\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+guide_mqtt\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+guide_mqtt\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+guide_mqtt\list.o: ../Core/Inc/FreeRTOSConfig.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+guide_mqtt\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

@@ -1,0 +1,12 @@
+guide_mqtt\app_motion.o: ../Core/Src/app_motion.c
+guide_mqtt\app_motion.o: ../Core/Inc/app_motion.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+guide_mqtt\app_motion.o: ../Core/Inc/hexapod_config.h
+guide_mqtt\app_motion.o: ../Core/Inc/hexapod.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+guide_mqtt\app_motion.o: ../Core/Inc/app_servo.h
+guide_mqtt\app_motion.o: ../Core/Inc/board_io.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+guide_mqtt\app_motion.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
